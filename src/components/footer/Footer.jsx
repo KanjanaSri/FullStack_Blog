@@ -5,7 +5,7 @@ import Image from "next/image";
 function Footer() {
   return (
     <div className={styles.container}>
-      <div>&copy;2023 Wasser. All rights reserved.</div>
+      <div>&copy;2023 iBlog. All rights reserved.</div>
       <div className={styles.social}>
         <Image
           src="/1.png"

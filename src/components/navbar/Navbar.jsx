@@ -41,7 +41,7 @@ function Navbar() {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
-        Wasser
+        iBlog
       </Link>
       <div className={styles.links}>
         {links.map((link) => (
