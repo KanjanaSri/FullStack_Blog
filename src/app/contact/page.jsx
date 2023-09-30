@@ -22,11 +22,11 @@ const Contact = () => {
           />
         </div>
         <form className={styles.form}>
-          <input type="text" placeholder="name" className={styles.input} />
-          <input type="text" placeholder="email" className={styles.input} />
+          <input type="text" placeholder="Name" className={styles.input} />
+          <input type="text" placeholder="Email" className={styles.input} />
           <textarea
             className={styles.textArea}
-            placeholder="message"
+            placeholder="Message..."
             cols="30"
             rows="10"
           ></textarea>
